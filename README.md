@@ -16,5 +16,10 @@ C --> C2[Network]
 C --> C3[Localization]
 
 C1 --> C11[Database]
+C1 --> C12[Secure Storage]
+
+C11 --> C111[SQLite]
+C11 --> C112[Realm]
+C11 --> C113[Core Data]
 
 ```
