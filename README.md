@@ -1,7 +1,7 @@
 # iOS Components
 
 ```mermaid
-tree LR
+graph LR
 
 A(iOS)
 
