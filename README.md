@@ -23,7 +23,7 @@ C11 --> C112[Realm]
 C11 --> C113[Core Data]
 
 C2 --> C21[AlomaFire]
-C2 --> C22[Http]
+C2 --> C22[NSURLSession]
 C2 --> C23[GraphQL]
 
 C3 --> C31[Localization Kit]
