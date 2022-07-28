@@ -12,6 +12,15 @@ If you are facing build issue, please check the dependency_overrides: path.
 
 It should be as like below.
 
+$ tree
 .
-├── hex_f_core
-└── shopping_poc
+├── dir1
+│   ├── file11.ext
+│   └── file12.ext
+├── dir2
+│   ├── file21.ext
+│   ├── file22.ext
+│   └── file23.ext
+├── dir3
+├── file_in_root.ext
+└── README.md
