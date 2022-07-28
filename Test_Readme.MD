@@ -35,6 +35,21 @@ We are using Hex Flutter Core Library
 
 To build this application, we need hex_f_core package in our local. And we need to use dependency_overrides: in pubspec.yaml
 
+```
+dependency_overrides:
+  core:
+    path: ../hex_f_core/core/app-mobile-core/src/
+
+  widget_library:
+    path: ../hex_f_core/widgets/app-mobile-widgets/src/
+
+  network_manager:
+    path: ../hex_f_core/network_manager/app-mobile-networkmanager/src/
+
+  task_manager:
+    path: ../hex_f_core/task_manager/app-mobile-taskmanager/src/
+    
+```
 
 > If you are facing build issue, please check the dependency_overrides: path.
 
