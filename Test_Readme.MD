@@ -1,21 +1,17 @@
-#!/bin/bash
+# shopping_poc
 
-#File: tree-md
+Flutter project for Shopping POC.
 
-tree=$(tree -tf --noreport -I '*~' --charset ascii $1 |
-       sed -e 's/| \+/  /g' -e 's/[|`]-\+/ */g' -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g')
+## Getting Started
 
-printf "# Project tree\n\n${tree}"
+We are using Hex Flutter Core Library
 
-$ tree
-.
-├── dir1
-│   ├── file11.ext
-│   └── file12.ext
-├── dir2
-│   ├── file21.ext
-│   ├── file22.ext
-│   └── file23.ext
-├── dir3
-├── file_in_root.ext
-└── README.md
+To build this application, we need hex_f_core package in our local. And we need to use dependency_overrides: in pubspec.yaml
+
+If you are facing build issue, please check the dependency_overrides: path.
+
+It should be as like below.
+
+root
+├── hex_f_core
+└── shopping_poc
