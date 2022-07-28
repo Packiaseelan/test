@@ -6,8 +6,6 @@ Flutter project for Shopping POC.
 
 We are using Hex Flutter Core Library
 
-To build this application, we need hex_f_core package in our local. And we need to use dependency_overrides: in pubspec.yaml
-
 ```
   core:
     git:
@@ -34,6 +32,9 @@ To build this application, we need hex_f_core package in our local. And we need 
       path: task_manager/app-mobile-taskmanager/src
 
 ```
+
+To build this application, we need hex_f_core package in our local. And we need to use dependency_overrides: in pubspec.yaml
+
 
 > If you are facing build issue, please check the dependency_overrides: path.
 
