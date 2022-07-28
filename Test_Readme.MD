@@ -12,6 +12,6 @@ If you are facing build issue, please check the dependency_overrides: path.
 
 It should be as like below.
 
-root
+.
 ├── hex_f_core
 └── shopping_poc
